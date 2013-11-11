@@ -1,30 +1,40 @@
 /* The styles used here are adapted from the GitHub markdown-body styles. */
 
-/* Top bar */
+/* Header bar */
 
 .github #tm_webpreview_header {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #eaeaea;
+  background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+  background-image: linear-gradient(#fafafa, #eaeaea);
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #cacaca;
   color: #555;
+  padding: 12px 0 10px;
 }
 
 .github #tm_webpreview_header #gradient {
-  height: 41px;
+  display: none;
 }
 
 .github #tm_webpreview_header #theme_switcher {
-  font-size: 13px;
-  top: 8px;
-  right: 14px;
+  font-size: 12px;
+  right: 15px;
   -webkit-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
 }
 
+.github #tm_webpreview_header p {
+  margin: 0;
+  padding: 0;
+}
+
 .github #tm_webpreview_header .headline {
   color: #555;
-  font-size: 16px;
-  font-weight: bold;
-  margin: 5px 14px 4px;
-  padding: 3px;
   text-shadow: 0 1px 0 #fff;
+  font-weight: bold;
+  padding: 0 15px;
 }
 
 .github #tm_webpreview_header .type {
@@ -34,6 +44,8 @@
 .github #tm_webpreview_header #teaser {
   display: none;
 }
+
+/* Content */
 
 .github #tm_webpreview_content {
   margin-top: 3em;
