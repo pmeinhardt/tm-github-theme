@@ -14,6 +14,8 @@
   font-size: 13px;
   top: 8px;
   right: 14px;
+  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
 }
 
 .github #tm_webpreview_header .headline {
@@ -35,6 +37,7 @@
 
 .github #tm_webpreview_content {
   margin-top: 3em;
+  padding: 30px;
 }
 
 /* Common styles */
@@ -155,7 +158,8 @@
 .github > h3:first-child,
 .github > h4:first-child,
 .github > h5:first-child,
-.github > h6:first-child {
+.github > h6:first-child,
+.github > base + * {
   margin-top: 0;
   padding-top: 0;
 }
