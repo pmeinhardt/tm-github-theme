@@ -54,28 +54,18 @@
 
 /* Common styles */
 
-.github .pro_table {
-  border-top: 1px solid #919699;
-  border-left: 1px solid #919699;
-}
-.github .pro_table th {
-  background: #e5e5e5;
-  border-bottom: 1px solid #919699;
-  border-right: 1px solid #919699;
-}
-.github .pro_table td {
-  border-bottom: 1px solid #919699;
-  border-right: 1px solid #919699;
-}
 .github .footnote {
   color: #525151;
 }
+
 .github .footnote:before {
   color: #525151;
 }
+
 .github .footnote:after {
   color: #525151;
 }
+
 .github div.footnotes {
    background: #f8f8f8;
 }
@@ -272,38 +262,38 @@
 /* Tables */
 
 .github table {
-  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .github table tr {
   border-top: 1px solid #ccc;
   background-color: #fff;
-  margin: 0;
-  padding: 0;
 }
 
 .github table tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
 
-.github table tr th {
+.github table th {
   font-weight: bold;
 }
 
-.github table tr th,.github table tr td {
-  border: 1px solid #ccc;
+.github table th,
+.github table td {
+  border: 1px solid #ddd;
   text-align: left;
   margin: 0;
   padding: 6px 13px;
 }
 
-.github table tr th > :first-child,
-.github table tr td > :first-child {
+.github table th > :first-child,
+.github table td > :first-child {
   margin-top: 0;
 }
 
-.github table tr th > :last-child,
-.github table tr td > :last-child {
+.github table th > :last-child,
+.github table td > :last-child {
   margin-bottom: 0;
 }
 
