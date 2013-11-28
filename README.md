@@ -17,7 +17,7 @@ style.
 
 ### Textmate 2.x
 
-    git clone https://github.com/pmeinhardt/tm-github-theme.git /Users/pmeinhardt/Library/Application Support/TextMate/Managed/Bundles/Themes.tmbundle/Support/web-themes/github
+    git clone https://github.com/pmeinhardt/tm-github-theme.git /Users/pmeinhardt/Library/Application\ Support/TextMate/Managed/Bundles/Themes.tmbundle/Support/web-themes/github
 
 ## Preview
 
