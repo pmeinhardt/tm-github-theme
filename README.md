@@ -21,7 +21,7 @@ style.
 
 ## Preview
 
-![GitHub preview theme](https://github.com/pmeinhardt/tm-github-theme/raw/master/preview.png "Relieve your eyes")
+![GitHub preview theme](preview.png "Relieve your eyes")
 
 ## Notice
 
