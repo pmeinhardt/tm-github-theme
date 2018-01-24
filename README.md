@@ -16,7 +16,7 @@ Replace the purplish default theme for previews with this decent, GitHub-esque s
 
 ### Textmate 2.x
 
-    git clone https://github.com/pmeinhardt/tm-github-theme.git /Users/<your-username>/Library/Application\ Support/TextMate/Managed/Bundles/Themes.tmbundle/Support/web-themes/github
+    git clone https://github.com/pmeinhardt/tm-github-theme.git $HOME/Library/Application\ Support/TextMate/Managed/Bundles/Themes.tmbundle/Support/web-themes/github
 
 ## Preview
 
